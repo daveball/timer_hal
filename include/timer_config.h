@@ -1,0 +1,8 @@
+#ifndef TIMER_CONFIG_H
+#define TIMER_CONFIG_H
+#include <stdint.h>
+#define TIMER_VERSION_MAJOR (1U)
+#define TIMER_VERSION_MINOR (0U)
+#define TIMER_VERSION_PATCH (0U)
+#define TIMER_MAX_TIMEOUT_MS (UINT32_C(0xFFFFFFFF))
+#endif
